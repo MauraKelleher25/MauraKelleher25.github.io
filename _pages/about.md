@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: MIT Master's Student in Computer Science - Concentrating in AI and Machine Learning
 
