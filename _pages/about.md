@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Maura Kelleher
+subtitle: MIT Master's Student in Computer Science - Concentrating in AI and Machine Learning
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p> MIT Master's Student in Computer Science </p>
-    <p> Concentrating in AI and Machine Learning </p>
-    <p> Cambridge, MA </p>
+  more_info: #>
+    # <p> MIT Master's Student in Computer Science </p>
+    # <p> Concentrating in AI and Machine Learning </p>
+    # <p> Cambridge, MA </p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
