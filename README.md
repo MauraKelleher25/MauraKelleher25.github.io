@@ -22,6 +22,11 @@
 
 </div>
 
+Notes: 
+cv.md --> corresponds to resume page
+profiles.md --> corresponds to the project page
+projects.md --> corresponds to the teaching page
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
