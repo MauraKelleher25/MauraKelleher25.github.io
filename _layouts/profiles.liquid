@@ -17,12 +17,29 @@ layout: page
             {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
             {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
           {% endif %}
+          <div class="text-center mt-3">
+            {% if profile.pdf %}
+              {% if profile.pdf contains '://' %}
+                <a href="{{ profile.pdf }}" class="btn btn-outline-dark btn-sm mx-2" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+              {% else %}
+                <a href="{{ profile.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-outline-dark btn-sm mx-2" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+              {% endif %}
+            {% endif %}
+
+            {% if profile.code %}
+              <a href="{{ profile.code }}" class="btn btn-sm btn-outline-dark z-depth-0 mx-2" role="button" target="_blank" rel="noopener noreferrer">Repository</a>
+            {% endif %}
+          </div>
+
           {% if profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
         </div>
 
         <div class="clearfix">
+          {% if profile.title %}
+            <h2 class="profile-title text-center mt-4">{{ profile.title }}</h2>
+          {% endif %}
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
@@ -34,3 +51,5 @@ layout: page
     {% endif %}
   </article>
 </div>
+
+

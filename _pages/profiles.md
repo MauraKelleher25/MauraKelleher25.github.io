@@ -1,28 +1,28 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /projects/
+title: Projects
+description: A collection of projects from classes, research and work.
 nav: true
-nav_order: 6
+nav_order: 3
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: prof_pic.jpg
+    title: THIS IS THE TITLE
+    image: Reasoning-Study.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    pdf: 6_8610_Project.pdf
+    code: "https://github.com/gchatz22/reasoning-perturbations-study"
+    more_info:
   - align: left
-    image: prof_pic.jpg
+    title: THIS IS THE TITLE
+    image: Sketchbot-Im.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    pdf: Sketchbot-FinalReport.pdf
+    code: "https://github.com/Ahhhshen/sketchbot"
+    more_info:
 ---
