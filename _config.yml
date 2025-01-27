@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Maura Kelleher # the website title (if blank, full name will be used instead)
-first_name:
+first_name: Maura
 middle_name:
-last_name: Maura Kelleher
+last_name: Kelleher
 contact_note: >
   Feel free to reach out over email or LinkedIn!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

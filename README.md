@@ -23,9 +23,7 @@
 </div>
 
 Notes: 
-cv.md --> corresponds to resume page
-profiles.md --> corresponds to the project page
-projects.md --> corresponds to the teaching page
+cv.md --> corresponds to resume page, profiles.md --> corresponds to the project page, projects.md --> corresponds to the teaching page,
 
 ## User community
 
