@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "My teaching experiences.",
+          description: "A collection of teaching and mentorship experiences in computer science, programming, and general education.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
