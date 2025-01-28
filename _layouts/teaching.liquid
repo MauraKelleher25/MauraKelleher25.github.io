@@ -1,0 +1,134 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {% if page.experiences %}
+    <div class="experiences-container">
+      {% for experience in page.experiences %}
+      <div class="experience-row">
+        <div class="experience-content">
+          <div class="experience-wrapper">
+            <div class="experience-text">
+              <div>
+                <h2 class="experience-title">{{ experience.title }}</h2>
+              </div>
+              <div class="experience-description">
+                {{ experience.content | markdownify }}
+              </div>
+            </div>
+            {% if experience.image %}
+            <div class="experience-image">
+              {% assign experience_image_path = experience.image | prepend: 'assets/img/' %}
+              {% if experience.image_circular %}
+              <img class="img-fluid z-depth-1 rounded-circle" src="{{ experience_image_path | relative_url }}" alt="{{ experience.title }}">
+              {% else %}
+              <img class="img-fluid z-depth-1 rounded" src="{{ experience_image_path | relative_url }}" alt="{{ experience.title }}">
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {{ content }}
+  </article>
+</div>
+
+<style>
+  .experiences-container {
+    margin-top: 1.5rem;
+  }
+
+  .experience-row {
+    margin-bottom: 1.5rem;
+  }
+
+  .experience-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+  }
+
+  .experience-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .experience-text {
+    flex: 1;
+  }
+
+  .experience-title {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-description {
+    color: #000;
+  }
+
+  .experience-description strong {
+    color: #000;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+
+  .experience-description em {
+    color: #000;
+    font-style: italic;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .experience-description ul {
+    margin: 0;
+    padding-left: 1.5rem;
+  }
+
+  .experience-description li {
+    color: #000;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+
+  .experience-image {
+    width: 30%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+  }
+
+  .experience-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    .experience-wrapper {
+      flex-direction: column;
+    }
+
+    .experience-image {
+      width: 100%;
+      max-width: 200px;
+      margin-top: 0.75rem;
+    }
+  }
+</style>
