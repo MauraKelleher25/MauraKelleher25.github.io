@@ -22,8 +22,8 @@ experiences:
     content: |
       **Andorra La Vella, Andorra**  
       *January 2025*
-      - Teaching math, computer science and machine learning classes to high shcool juniors and seniors
-      - Preparing lessons on functions, limits, programming in python, decision tress, simple neural network concepts and CNNs.
+      - Teaching math, computer science and machine learning classes to high school juniors and seniors
+      - Preparing lessons on functions, limits, programming in python, decision trees, simple neural network concepts and CNNs.
     image_circular: false
 
   - align: right
