@@ -7,13 +7,25 @@ nav: true
 nav_order: 4
 
 experiences:
+  - align: left
+    title: "Teaching Assistant for 6.4210/2: MIT Robotic Manipulation"
+    image: perception.jpg
+    content: |
+      **Massachusetts Institute of Technology - Cambridge, MA**  
+      *September 2025 ~ Present*
+      - [Robotics Class](https://manipulation.csail.mit.edu/Fall2025/index.html#description) focused on perception, planning and control.
+      - Collaborating with course staff to develop and update problem set content, providing support to students in office hours.
+    image_circular: false
+
   - align: right
     title: "Teaching Assistant for 18.05: MIT Introduction to Probability and Statistics"
     image: probability.jpg
     content: |
       **Massachusetts Institute of Technology - Cambridge, MA**  
-      *January 2025 ~ Present*
+      *January 2025 ~ May 2025*
       - TA appointment in the [MIT Math dapartment](https://math.mit.edu/) for my Masters in [EECS](https://www.eecs.mit.edu/)
+      - Acted as a section lead for 70 students, coordinating attendance and course logistics.
+      - Provided one-on-one assitance in office hours and led students through problem solving exercises during class.
     image_circular: false
 
   - align: right
