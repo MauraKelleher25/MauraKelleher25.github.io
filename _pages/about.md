@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: MIT Master's Student in Computer Science - Concentrating in AI and Machine Learning
+subtitle: MIT M.Eng. in Computer Science - Concentration in AI and Machine Learning
 
 profile:
   align: right
@@ -18,6 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-In May 2025, I graduated from MIT with my Bachelor of Science in Computer Science and Engineering [(Course 6-3)](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/), a minor in Business Analytics [(Course 15-2)](https://catalog.mit.edu/degree-charts/business-analytics-course-15-2/) and concentration in [Science, Technology and Society](https://catalog.mit.edu/schools/humanities-arts-social-sciences/science-technology-society/). I am now pursuing a Master’s in Computer Science through the [MIT MEng program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/). My thesis, under the guidance of MIT Professor [Aude Oliva](https://mitibmwatsonailab.mit.edu/people/aude-oliva/) and [Rogerio Feris](https://www.rogerioferis.org/) of IBM, focuses on video-to-prosody models for sports applications.
 
-This summer, I worked as a Computer Vision Intern at geospatial AI company [Niantic Spatial](https://www.nianticspatial.com/en). I worked to improve the quality of 3D Gaussian Splats for 3D reconstruction by implementing novel training optimizations. In my previous summer at [Niantic Labs](https://nianticlabs.com/?hl=en), I worked on the AR Mapping and World Perception team, retraining novel depth estimation models for improved long-range reconstruction of 3D scenes. My past experiences include machine learning work for biotechnology company [BiomX](https://www.biomx.com/), and research and development for edtech platform [MIT App Inventor](https://appinventor.mit.edu/). I've also contributed to the [MIT Media Lab's Fluid Interfaces](https://www.media.mit.edu/groups/fluid-interfaces/overview/) group, where I built a full-stack web application for a sleep study investigating the impact of wearable technology on memory and cognition.
+In February 2026, I completed my Master of Engineering in Computer Science at MIT through the [MIT MEng program](https://www.eecs.mit.edu/academics/undergraduate-programs/meng-program/). My thesis, under the guidance of MIT Professor [Aude Oliva](https://mitibmwatsonailab.mit.edu/people/aude-oliva/) and [Rogerio Feris](https://www.rogerioferis.org/) of IBM, focused on video-to-prosody models for the automatic generation of tennis commentary. In May 2025, I graduated from MIT with my Bachelor of Science in Computer Science and Engineering [(Course 6-3)](https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/), a minor in Business Analytics [(Course 15-2)](https://catalog.mit.edu/degree-charts/business-analytics-course-15-2/) and a concentration in [Science, Technology and Society](https://catalog.mit.edu/schools/humanities-arts-social-sciences/science-technology-society/).
+
+I am currently an Engineering Intern on the Basketball AI team at [Genius Sports](https://www.geniussports.com/), where I work on data pipelines delivering analytics to the NBA, WNBA, and NCAA. This fall, I will be joining [Niantic Spatial](https://www.nianticspatial.com/en) full-time as a Computer Vision Engineer on the AR Mapping and World Perception team. I previously interned at Niantic twice: in summer 2025, improving the quality of 3D Gaussian Splats for 3D reconstruction, and in summer 2024, retraining novel depth estimation models for improved long-range reconstruction of 3D scenes.
+
+My past experiences include machine learning work for biotechnology company [BiomX](https://www.biomx.com/), and research and development for edtech platform [MIT App Inventor](https://appinventor.mit.edu/). I've also contributed to the [MIT Media Lab's Fluid Interfaces](https://www.media.mit.edu/groups/fluid-interfaces/overview/) group, where I built a full-stack web application for a sleep study investigating the impact of wearable technology on memory and cognition.
+
+During my time at MIT, I was a teaching assistant for Introduction to Machine Learning, Probability and Statistics, and Robotic Manipulation. I also participated in the [MIT Global Teaching Labs](https://misti.mit.edu/global-teaching-labs) program, completing month-long teaching placements in Chile and Andorra where I taught math and computer science to high school students.
