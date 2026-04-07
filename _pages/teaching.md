@@ -12,7 +12,7 @@ experiences:
     image: perception.jpg
     content: |
       **Massachusetts Institute of Technology - Cambridge, MA**  
-      *September 2025 ~ Present*
+      *September 2025 ~ December 2025*
       - [Robotics Class](https://manipulation.csail.mit.edu/Fall2025/index.html#description) focused on perception, planning and control.
       - Collaborating with course staff to develop and update problem set content, providing support to students in office hours.
     image_circular: false
